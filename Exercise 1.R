@@ -4,21 +4,13 @@ library(lubridate)
 library(tidyverse)
 
 
-lubridate::date()
-
-lubridate::today()
+lubridate::month(d)
 
 
-
-lubridate::month(lubridate::today())
 
 
 date()
-
-today()
-
-month(today())
-
+month(d, label = T)
 
 
 d <- '2011-12-12'
@@ -35,5 +27,5 @@ Sys.Date()
 
 
 
-Sys.sleep(20)
+Sys.sleep(10)
 
